@@ -1,0 +1,13 @@
+
+QTabBar::tab { background: #ffffff ; border: 4px solid #ffffff; border-bottom-color: #ffffff ; border-top-left-radius: 4px; border-top-right-radius: 4px; min-width: 8ex; padding: 4px; color: #ffffff;}
+QTabBar::tab:selected, QTabBar::tab:hover { color: #389fd9;}
+QMenu { background-color: #ffffff; background: #ffffff; color: #389fd9;}
+QMenu::separator { background: #389fd9; height: 1px;}
+QMenu::item:selected { background-color: #389fd9; color: #ffffff ;}
+QMenuBar { background-color: #ffffff; background: #ffffff; color: #389fd9;}
+QMenuBar::item { background-color: #ffffff ; color: #389fd9;}
+QMenuBar::item:selected { background-color: #389fd9; color: #ffffff;}
+QToolTip { border: none;}
+QTableView { color: #389fd9; border-style: none; selection-background-color: #ffffff; alternate-background-color: #ffffff; selection-color: #ffffff ; border: 0px solid blue;}
+QHeaderView { color: #389fd9; background-color: transparent; background-image: none;}
+QHeaderView::section { color: #389fd9; background-color: #ffffff;}
